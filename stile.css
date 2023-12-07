@@ -1,0 +1,78 @@
+img{
+    width: 340px;
+    height: 315px;
+
+}
+.titulos{
+    font-family: 'Inconsolata', monospace;
+    font-size: 40px;
+}
+p{
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+}
+.imagen{
+    display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.seccion{
+    padding: 30px;
+    padding-left: 20px;
+}
+main{
+display: flex;
+flex-direction: column;
+}
+.contener{
+    display: flex;
+}
+a{
+   text-decoration: none;
+}
+.boton{
+  
+        font-family: 'Inconsolata', monospace;
+        font-size: 12px;
+        margin-top:23px ;
+        padding: 10px 15px;
+        background-color: #333333;
+        color: rgb(243, 243, 243);
+        cursor: pointer;
+}
+
+footer{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    
+  }
+.foter{
+        margin: auto;
+        color:#BDBDBD;
+        font-family: "Montserrat";
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 17px;
+        letter-spacing: 0em;
+        text-align: center;
+        padding:5px 0;
+      
+}
+
+@media screen and (min-width: 768px) {
+
+    header p{
+        padding: 25px;
+    }   
+    main{
+        height: 60vh;
+        width: 65%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
